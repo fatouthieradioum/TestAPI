@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="https://senelec.com/SAP_ISU/Payment/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:GetAgentDepositAmount_Req>
+         <Payment>
+            <Agent>SENELECPX000003</Agent>
+            <CashDesk>SENELECPX000001</CashDesk>
+         </Payment>
+      </v1:GetAgentDepositAmount_Req>
+   </soapenv:Body>
+</soapenv:Envelope>
